@@ -2,13 +2,13 @@ SHELL := /bin/bash
 
 # components repos
 GODWOKEN_REPO := https://github.com/nervosnetwork/godwoken.git
-GODWOKEN_SCRIPTS_REPO := https://github.com/nervosnetwork/godwoken-scripts.git
+GODWOKEN_SCRIPTS_REPO := https://github.com/zeroqn/godwoken-scripts.git
 POLYJUICE_REPO := https://github.com/nervosnetwork/godwoken-polyjuice.git
 CLERKB_REPO := https://github.com/nervosnetwork/clerkb.git
 
 # components tags
 GODWOKEN_REF := v0.7.2
-GODWOKEN_SCRIPTS_REF := v0.8.4
+GODWOKEN_SCRIPTS_REF := feat-withdrawal-unlock-finalized-only-change-output-lock-to-owner
 POLYJUICE_REF := v0.8.9
 CLERKB_REF := v0.4.0
 
