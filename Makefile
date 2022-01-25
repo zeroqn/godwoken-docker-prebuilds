@@ -1,14 +1,14 @@
 SHELL := /bin/bash
 
 # components repos
-GODWOKEN_REPO := https://github.com/nervosnetwork/godwoken.git
-GODWOKEN_SCRIPTS_REPO := https://github.com/nervosnetwork/godwoken-scripts.git
+GODWOKEN_REPO := https://github.com/zeroqn/godwoken.git
+GODWOKEN_SCRIPTS_REPO := https://github.com/zeroqn/godwoken-scripts.git
 POLYJUICE_REPO := https://github.com/nervosnetwork/godwoken-polyjuice.git
 CLERKB_REPO := https://github.com/nervosnetwork/clerkb.git
 
 # components tags
-GODWOKEN_REF := develop
-GODWOKEN_SCRIPTS_REF := v0.8.4
+GODWOKEN_REF := chore-replace-short-address-with-short-script-hash
+GODWOKEN_SCRIPTS_REF := chore-replace-short-address-with-short-script-hash
 POLYJUICE_REF := v0.8.9
 CLERKB_REF := v0.4.0
 
