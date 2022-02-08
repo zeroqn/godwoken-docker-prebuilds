@@ -2,14 +2,14 @@ SHELL := /bin/bash
 
 # components repos
 GODWOKEN_REPO := https://github.com/zeroqn/godwoken.git
-GODWOKEN_SCRIPTS_REPO := https://github.com/nervosnetwork/godwoken-scripts.git
-POLYJUICE_REPO := https://github.com/zeroqn/godwoken-polyjuice.git
+GODWOKEN_SCRIPTS_REPO := https://github.com/zeroqn/godwoken-scripts.git
+POLYJUICE_REPO := https://github.com/nervosnetwork/godwoken-polyjuice.git
 CLERKB_REPO := https://github.com/nervosnetwork/clerkb.git
 
 # components tags
-GODWOKEN_REF := feat!-register-eth-eoa-into-registry-on-deposit
-GODWOKEN_SCRIPTS_REF := polyjuice-deps-feat-sudt-total-supply
-POLYJUICE_REF := feat!-batch-native-eth-addrs-register
+GODWOKEN_REF := pr-feat-support-eth-signature
+GODWOKEN_SCRIPTS_REF := pr-chore-support-eth-eip712
+POLYJUICE_REF := compatibility-breaking-changes
 CLERKB_REF := v0.4.0
 
 define prepare_repo
