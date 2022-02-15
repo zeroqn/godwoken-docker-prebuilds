@@ -3,13 +3,13 @@ SHELL := /bin/bash
 # components repos
 GODWOKEN_REPO := https://github.com/zeroqn/godwoken.git
 GODWOKEN_SCRIPTS_REPO := https://github.com/zeroqn/godwoken-scripts.git
-POLYJUICE_REPO := https://github.com/zeroqn/godwoken-polyjuice.git
+POLYJUICE_REPO := https://github.com/nervosnetwork/godwoken-polyjuice.git
 CLERKB_REPO := https://github.com/nervosnetwork/clerkb.git
 
 # components tags
-GODWOKEN_REF := chore!-rollup-config-allowed-type-hash-identity
-GODWOKEN_SCRIPTS_REF := chore!-rollup-config-allowed-type-hash-identity
-POLYJUICE_REF := chore!-locate-eth-polyjuice-code-hash-by-type-id
+GODWOKEN_REF := chore-types-godwoken-mol-custodian-lock-args
+GODWOKEN_SCRIPTS_REF := chore-types-godwoken-mol-custodian-lock-args
+POLYJUICE_REF := compatibility-breaking-changes
 CLERKB_REF := v0.4.0
 
 define prepare_repo
