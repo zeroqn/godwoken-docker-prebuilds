@@ -4,7 +4,7 @@ SHELL := /bin/bash
 GODWOKEN_REPO := https://github.com/zeroqn/godwoken.git
 GODWOKEN_SCRIPTS_REPO := https://github.com/zeroqn/godwoken-scripts.git
 POLYJUICE_REPO := https://github.com/zeroqn/godwoken-polyjuice.git
-CLERKB_REPO := https://github.com/zeroqn/clerkb.git
+CLERKB_REPO := https://github.com/nervosnetwork/clerkb.git
 
 # components tags
 GODWOKEN_REF := fix-block-producer-no-dump-on-dry-run-script-error
