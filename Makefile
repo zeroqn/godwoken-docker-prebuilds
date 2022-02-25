@@ -2,14 +2,14 @@ SHELL := /bin/bash
 
 # components repos
 GODWOKEN_REPO := https://github.com/zeroqn/godwoken.git
-GODWOKEN_SCRIPTS_REPO := https://github.com/zeroqn/godwoken-scripts.git
-POLYJUICE_REPO := https://github.com/zeroqn/godwoken-polyjuice.git
+GODWOKEN_SCRIPTS_REPO := https://github.com/nervosnetwork/godwoken-scripts.git
+POLYJUICE_REPO := https://github.com/nervosnetwork/godwoken-polyjuice.git
 CLERKB_REPO := https://github.com/nervosnetwork/clerkb.git
 
 # components tags
-GODWOKEN_REF := fix-block-producer-no-dump-on-dry-run-script-error
-GODWOKEN_SCRIPTS_REF := snap-godwoken-v1
-POLYJUICE_REF := snap-godwoken-v1
+GODWOKEN_REF := debug-block-timestamp-input-since
+GODWOKEN_SCRIPTS_REF := compatibility-breaking-changes
+POLYJUICE_REF := compatibility-breaking-changes
 CLERKB_REF := v0.4.0
 
 define prepare_repo
