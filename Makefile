@@ -6,6 +6,7 @@ GODWOKEN_SCRIPTS_REPO := https://github.com/zeroqn/godwoken-scripts.git
 POLYJUICE_REPO := https://github.com/nervosnetwork/godwoken-polyjuice.git
 CLERKB_REPO := https://github.com/nervosnetwork/clerkb.git
 
+
 # components tags
 GODWOKEN_REF := feat-fast-withdrawal-to-v1
 GODWOKEN_SCRIPTS_REF := feat-fast-withdrawal-to-v1
