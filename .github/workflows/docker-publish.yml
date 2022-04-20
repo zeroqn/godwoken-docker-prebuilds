@@ -214,12 +214,3 @@ jobs:
         run: |
           echo "::set-output name=image_name::`echo ${{ fromJSON(steps.meta.outputs.json).tags[0] }} | awk -F ':' '{print $1}'`"
           echo "::set-output name=image_tag::`echo ${{ fromJSON(steps.meta.outputs.json).tags[0] }} | awk -F ':' '{print $NF}'`"
-
-  integration-test:
-    needs: docker-build-push
-    uses: nervosnetwork/godwoken-tests/.github/workflows/reusable-integration-test-v1.yml@develop
-    with:
-      gw_prebuild_image_name: ${{ needs.docker-build-push.outputs.image_name }}
-      gw_prebuild_image_tag: ${{ needs.docker-build-push.outputs.image_tag }}
-      kicker_ref: compatibility-changes # https://github.com/RetricSu/godwoken-kicker/commits/compatibility-changes
-      # gw_prebuild_image_digest: ${{ needs.docker-build-push.outputs.image_digest }}
