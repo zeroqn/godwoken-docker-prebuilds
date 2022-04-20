@@ -67,7 +67,7 @@ jobs:
         with:
           registry: ${{ env.REGISTRY }}
           username: ${{ github.ref_type != 'tag' && github.repository_owner || secrets.DOCKERHUB_USERNAME }}
-          password: ${{ github.ref_type != 'tag' && secrets.GITHUB_TOKEN || secrets.DOCKERHUB_TOKEN }}
+          password: ${{ github.ref_type != 'tag' && secrets.GHP_CRT || secrets.DOCKERHUB_TOKEN }}
 
       - name: Prepare components
         id: prepare
