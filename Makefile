@@ -1,13 +1,13 @@
 SHELL := /bin/bash
 
 # components repos
-GODWOKEN_REPO := https://github.com/nervosnetwork/godwoken.git
+GODWOKEN_REPO := https://github.com/zeroqn/godwoken.git
 GODWOKEN_SCRIPTS_REPO := https://github.com/nervosnetwork/godwoken-scripts.git
 POLYJUICE_REPO := https://github.com/nervosnetwork/godwoken-polyjuice.git
 OMNI_LOCK_REPO := https://github.com/nervosnetwork/ckb-production-scripts.git
 
 # components tags
-GODWOKEN_REF := fix-tool-wait_for_l2_tx
+GODWOKEN_REF := fix-tools-get-balance-parse-account-from-str-failure
 GODWOKEN_SCRIPTS_REF := refs/pull/116/head
 POLYJUICE_REF := refs/pull/138/head # https://github.com/nervosnetwork/godwoken-polyjuice/pull/138
 OMNI_LOCK_REF := rc_lock
