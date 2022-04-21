@@ -14,6 +14,7 @@ $ cd clerkb && yarn && make all-via-docker && cd ..
 $ docker build . -t godwoken-prebuilds
 ```
 
+
 How to upgrade:
 
 ```bash
