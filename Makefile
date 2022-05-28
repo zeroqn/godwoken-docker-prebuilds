@@ -1,14 +1,14 @@
 SHELL := /bin/bash
 
 # components repos
-GODWOKEN_REPO := https://github.com/nervosnetwork/godwoken.git
-GODWOKEN_SCRIPTS_REPO := https://github.com/nervosnetwork/godwoken-scripts.git
+GODWOKEN_REPO := https://github.com/zeroqn/godwoken.git
+GODWOKEN_SCRIPTS_REPO := https://github.com/zeroqn/godwoken-scripts.git
 POLYJUICE_REPO := https://github.com/nervosnetwork/godwoken-polyjuice.git
 OMNI_LOCK_REPO := https://github.com/nervosnetwork/ckb-production-scripts.git
 
 # components tags
-GODWOKEN_REF := v1.1-rc # https://github.com/nervosnetwork/godwoken/releases/tag/v1.1.0-beta
-GODWOKEN_SCRIPTS_REF := v1.1.0-beta # https://github.com/nervosnetwork/godwoken-scripts/releases/tag/v1.1.0-beta
+GODWOKEN_REF := feat-rpc-server-restore-polyjuice-tx-sender-from-id-zero
+GODWOKEN_SCRIPTS_REF := feat-c-contract-meta-batch-create-eth-accounts
 POLYJUICE_REF := v1.1.5-beta # https://github.com/nervosnetwork/godwoken-polyjuice/releases/tag/v1.1.5-beta
 OMNI_LOCK_REF := rc_lock
 
