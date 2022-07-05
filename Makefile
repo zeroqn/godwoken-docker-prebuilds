@@ -1,13 +1,13 @@
 SHELL := /bin/bash
 
 # components repos
-GODWOKEN_REPO := https://github.com/nervosnetwork/godwoken.git
+GODWOKEN_REPO := https://github.com/zeroqn/godwoken.git
 GODWOKEN_SCRIPTS_REPO := https://github.com/nervosnetwork/godwoken-scripts.git
 POLYJUICE_REPO := https://github.com/nervosnetwork/godwoken-polyjuice.git
 OMNI_LOCK_REPO := https://github.com/nervosnetwork/ckb-production-scripts.git
 
 # components tags
-GODWOKEN_REF := e5417de92d2afc3bcb9834674c09f64d7004c462 # https://github.com/nervosnetwork/godwoken/releases/tag/v1.2.1-rc1
+GODWOKEN_REF := feat-export-import-blocks # https://github.com/nervosnetwork/godwoken/releases/tag/v1.2.1-rc1
 GODWOKEN_SCRIPTS_REF := v1.1.0-beta # https://github.com/nervosnetwork/godwoken-scripts/releases/tag/v1.1.0-beta
 POLYJUICE_REF := 1.2.0 # https://github.com/nervosnetwork/godwoken-polyjuice/releases/tag/1.2.0
 OMNI_LOCK_REF := rc_lock
